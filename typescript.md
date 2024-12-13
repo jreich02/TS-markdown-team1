@@ -19,11 +19,11 @@ may produce unexpected/unwanted behaviour.
 
 ## TypeScript Compiler Options
 TypeScript compiler options allow you to configure how the TypeScript code is transformed into JavaScript and ensure stricter type checking for improved code quality. These options, defined in a tsconfig.json file or passed via the tsc command, cover various aspects such as specifying the ECMAScript version for output, module system, and libraries. Additionally, compiler options can be used for strict type checking and module resolution settings. Here are some examples of compiler options and their functionalities:
-    - target: chooses what version of javascript to transpile your code to
-    - lib : the set of language features you want typescript to compile
-    - module: the module system that the outputted js will operate under
-    - allowJs: allows javascript files to coexist in a typescript project
-    - outDir: defines the path the where the outputted files go
-    - strict: used to enable all strict type checking rules such as strictNullChecks, strictFunctionTypes, etc.
+    -  target: chooses what version of javascript to transpile your code to
+    -  lib : the set of language features you want typescript to compile
+    -  module: the module system that the outputted js will operate under
+    -  allowJs: allows javascript files to coexist in a typescript project
+    -  outDir: defines the path the where the outputted files go
+    -  strict: used to enable all strict type checking rules such as strictNullChecks, strictFunctionTypes, etc.
     
 
